@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+h3.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #3474e6;
+    color: #fff;
+}
+
+.navbar > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Showcase Area */
+main.showcase {
+    background-color: #0151cc;
+}
+
+.text h1 {
+    font-size: 40px;
+}
+
+main.showcase > .container {
+    height: 55vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+/* Boxes section */
+section.boxes {
+    background-color: #a1c3ff;
+}
+
+.box {
+    background-color: #0151cc;
+    width: 300px;
+    height: 200px;
+    padding: 15px;
+    color: #fff;
+    flex: 1 0 auto;
+    border-radius: 15px;
+}
+
+.box h3 {
+    font-size: 26px;
+}
+
+section.boxes > .container {
+    height: 40vh;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
